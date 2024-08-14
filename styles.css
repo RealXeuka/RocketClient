@@ -117,19 +117,19 @@ b {
   font-family: Arial, Helvetica, sans-serif;
 }
 /*Table*/
-table {
+.table {
   width: 100%;
   border-collapse: collapse;
   table-layout: fixed;
 }
-th, td {
+.th, .td {
   color: red;
   background-color: #0a0a0a;
   border: 1px solid red;
   padding: 8px;
   text-align: center;
 }
-th {
+.th {
   color: red;
   background-color: #0a0a0a;
   font-family: Arial, Helvetica, sans-serif;
