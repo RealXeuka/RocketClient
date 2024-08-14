@@ -1,17 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <link rel="icon" type="image/x-icon" href="Pictures/icon.png">
-    <link rel="stylesheet" href="styles.css">
-    <script src="javascript.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RocketClient</title>
+    <style>
+        body {
+            color: red;
+            background-color: black;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            color: red;
+            background-color: black;
+            border: 1px solid red;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            color: red;
+            background-color: black;
+        }
+        .order-btn {
+            padding: 5px 10px;
+            margin-top: 5px;
+            border: none;
+            color: black;
+            background-color: red;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+    </style>
 </head>
 <body>
     <link rel="icon" type="image/x-icon" href="Pictures/icon.png">
-    <link rel="stylesheet" href="styles.css">
-    <script src="javascript.js"></script>
-</body>
-<title>RocketClient</title>
-<b>Updates are Coming soon!</b>
+    <h1>RocketClient</h1>
+    <title>RocketClient</title>
+    <table id="rocket-table">
+        <thead>
+            <tr>
+                <th>VERSION</th>
+                <th>INFO</th>
+                <th>PRICE</th>
+                <th>ORDER</th>
+            </tr>
+        </thead>
+        <tbody>
+            </tbody>
+    </table>
 
+    <script>
+        function loadData() {
+            fetch('version.json')
+                .then(response => response.json())
+                .then(data => populateTable(data))
+                .catch(error => console.error('Error loading the JSON data:', error));
+        }
+
+        function populateTable(data) {
+            const tableBody = document.querySelector("#rocket-table tbody");
+            data.rocketclients.forEach(client => {
+                const row = document.createElement("tr");
+                let orderButton = '';
+
+                if (client.price === "0$") {
+                    orderButton = <a href="mailto:realxeuka@gmail.com?subject=Request for Base Version&body=I would like to request the base version." class="order-btn">Order</a>;
+                } else {
+                    orderButton = <a href="mailto:realxeuka@gmail.com?subject=Request for ${client.version} Version&body=I would like to order the ${client.version} version for ${client.price}." class="order-btn">Order</a>;
+                }
+
+                row.innerHTML = `
+                    <td>${client.version}</td>
+                    <td>${client.description}</td>
+                    <td>${client.price}</td>
+                    <td>${orderButton}</td>
+                `;
+                tableBody.appendChild(row);
+            });
+        }
+        document.addEventListener('DOMContentLoaded', loadData);
+    </script>
 </body>
 </html>
