@@ -1,92 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <link rel="icon" type="image/x-icon" href="Pictures/icon.png">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RocketClient</title>
-    <style>
-        body {
-            color: red;
-            background-color: black;
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td {
-            color: red;
-            background-color: black;
-            border: 1px solid red;
-            padding: 8px;
-            text-align: center;
-        }
-        th {
-            color: red;
-            background-color: black;
-        }
-        .order-btn {
-            padding: 5px 10px;
-            margin-top: 5px;
-            border: none;
-            color: black;
-            background-color: red;
-            cursor: pointer;
-            text-align: center;
-            text-decoration: none;
-            border-radius: 4px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <script src="javascript.js"></script>
 </head>
 <body>
     <link rel="icon" type="image/x-icon" href="Pictures/icon.png">
-    <h1>RocketClient</h1>
-    <title>RocketClient</title>
-    <table id="rocket-table">
-        <thead>
-            <tr>
-                <th>VERSION</th>
-                <th>INFO</th>
-                <th>PRICE</th>
-                <th>ORDER</th>
-            </tr>
-        </thead>
-        <tbody>
-            </tbody>
-    </table>
+    <link rel="stylesheet" href="styles.css">
+    <script src="javascript.js"></script>
+</body>
+<title>RocketClient</title>
 
-    <script>
-        function loadData() {
-            fetch('version.json')
-                .then(response => response.json())
-                .then(data => populateTable(data))
-                .catch(error => console.error('Error loading the JSON data:', error));
-        }
+<h1 class="text1">RocketClient</h1>
+<br>
+<br>
 
-        function populateTable(data) {
-            const tableBody = document.querySelector("#rocket-table tbody");
-            data.rocketclients.forEach(client => {
-                const row = document.createElement("tr");
-                let orderButton = '';
+<table id="rocket-table">
+    <thead>
+        <tr>
+            <th>Version</th>
+            <th>Info</th>
+            <th>Price</th>
+            <th>Order</th>
+        </tr>
+    </thead>
+    <tbody>
+        </tbody>
+</table>
+<table id="rocket-table1">
+    <thead>
+        <tr>
+            <th>RocketBase</th>
+            <th>❌Crashes ✅No ENC ✅Menu ❌Your Name</th>
+            <th>Free</th>
+            <th><a href="./Files/Test.zip" download> 
+                <button class="button4">Get</button>
+            </a></th>
+        </tr>
+    </thead>
+    <tbody>
+        </tbody>
+</table>
+<table id="rocket-table2">
+    <thead>
+        <tr>
+            <th>RocketClientV1</th>
+            <th>✅Crashes ❌No ENC ✅Menu ❌Your Name</th>
+            <th>150$</th>
+            <th><a href="https://t.me/@gesuchtvomfinanzamt" download> 
+                <button class="button4">Buy</button>
+            </a></th>
+        </tr>
+    </thead>
+    <tbody>
+        </tbody>
+</table>
+<table id="rocket-table">
+    <thead>
+        <tr>
+            <th>RocketClientV1 Special</th>
+            <th>✅Crashes ❌No ENC ✅Menu ✅Your Name</th>
+            <th>175$</th>
+            <th><a href="https://t.me/@gesuchtvomfinanzamt" download> 
+                <button class="button4">Buy</button>
+            </a></th>
+        </tr>
+    </thead>
+    <tbody>
+        </tbody>
+</table>
 
-                if (client.price === "0$") {
-                    orderButton = <a href="mailto:realxeuka@gmail.com?subject=Request for Base Version&body=I would like to request the base version." class="order-btn">Order</a>;
-                } else {
-                    orderButton = <a href="mailto:realxeuka@gmail.com?subject=Request for ${client.version} Version&body=I would like to order the ${client.version} version for ${client.price}." class="order-btn">Order</a>;
-                }
 
-                row.innerHTML = `
-                    <td>${client.version}</td>
-                    <td>${client.description}</td>
-                    <td>${client.price}</td>
-                    <td>${orderButton}</td>
-                `;
-                tableBody.appendChild(row);
-            });
-        }
-        document.addEventListener('DOMContentLoaded', loadData);
-    </script>
+
+<b>Updates are Coming soon!</b>
+
 </body>
 </html>
