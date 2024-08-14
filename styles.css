@@ -18,7 +18,7 @@ body {
   text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
 }
 .button1 {
-  border-radius: 10px;
+  border-radius: 7px;
   background-color: #0a0a0a; 
   color: #ff0000; 
   border: 2px solid #ff0000;
@@ -26,7 +26,7 @@ body {
   text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
 }
 .button1:hover {
-  background-color: #ff0000;
+  background-color: #660000;
   color: #0a0a0a;
   font-family: Arial, Helvetica, sans-serif;
   text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
@@ -44,18 +44,21 @@ body {
   transition-duration: 0.4s;
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
 }
 .button2 {
-  border-radius: 10px;
+  border-radius: 7px;
   background-color: #0a0a0a; 
   color: #ff0000; 
   border: 2px solid #ff0000;
   font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
 }
 .button2:hover {
-  background-color: #ff0000;
+  background-color: #660000;
   color: #0a0a0a;
   font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
 }
 /*Button3*/
 .button3 {
@@ -70,17 +73,20 @@ body {
   transition-duration: 0.4s;
   cursor: pointer;
   font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
 }
 .button3 {
-  border-radius: 10px;
+  border-radius: 7px;
   background-color: #0a0a0a; 
   color: #ff0000; 
   border: 2px solid #ff0000;
   font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
 }
 .button3:hover {
-  background-color: #ff0000;
+  background-color: #660000;
   color: #0a0a0a;
+  text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
 }
 /*Button4*/
 .button4 {
@@ -98,7 +104,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .button4 {
-  border-radius: 10px;
+  border-radius: 7px;
   background-color: #0a0a0a; 
   color: #ff0000; 
   border: 2px solid #ff0000;
@@ -106,7 +112,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 .button4:hover {
-  background-color: #ff0000;
+  background-color: #660000;
   color: #0a0a0a;
   text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
 }
@@ -114,13 +120,27 @@ body {
 .text1 {
   font-size: 50px;
   color: red;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px;
   font-family: Arial, Helvetica, sans-serif;
+  top: auto;
   text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
 }
 /*Text2*/
-b {
+.text2 {
   color: red;
   font-family: Arial, Helvetica, sans-serif;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
 }
 /*Table*/
 table {
