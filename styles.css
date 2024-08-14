@@ -4,5 +4,11 @@ body {
 }
 /*Text1*/
 h1 {
-    color: red
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Text2*/
+b {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
 }
