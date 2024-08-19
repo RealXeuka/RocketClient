@@ -4,8 +4,6 @@ body {
 }
 /*Button1*/
 .button1 {
-  margin: 0;
-  position: absolute;
   height: 55px;
   width: 200px;
   border: none;
@@ -37,8 +35,6 @@ body {
 }
 /*Button2*/
 .button2 {
-  margin: 0;
-  position: absolute;
   height: 55px;
   width: 200px;
   border: none;
@@ -134,8 +130,6 @@ body {
 }
 /*Button5*/
 .button5 {
-  margin: 0;
-  position: absolute;
   height: 55px;
   width: 200px;
   border: none;
