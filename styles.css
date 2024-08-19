@@ -4,13 +4,13 @@ body {
 }
 /*Button1*/
 .button1 {
+  position: absolute;
   height: 55px;
   width: 200px;
   border: none;
   color: white;
   padding: 16px 32px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
   font-size: 20px;
   margin: 50px 170px;
@@ -51,6 +51,7 @@ body {
   text-shadow: 0 0 9px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
 }
 .button2 {
+  position: absolute;
   border-radius: 7px;
   background-color: #0a0a0a; 
   color: #ff0000; 
