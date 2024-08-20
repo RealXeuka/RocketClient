@@ -6,7 +6,7 @@ body {
 .button1 {
   margin: 5;
   position: absolute;
-  top: 25%;
+  top: 30%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -45,7 +45,7 @@ body {
 .button2 {
   margin: 5;
   position: absolute;
-  top: 35%;
+  top: 36%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -168,7 +168,7 @@ body {
   text-shadow: 0 0 9px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
   margin: 0;
   position: absolute;
-  top: 45.50%;
+  top: 43%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-49%, -60%);
