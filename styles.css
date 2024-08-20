@@ -62,7 +62,7 @@ body {
   width: 180px;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  margin: 200px 2px;
+  margin: 200px 1px;
   padding: 16px 32px;
   font-size: 20px;
   transition-duration: 0.8s;
