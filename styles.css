@@ -126,7 +126,7 @@ body {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  margin: 280px 2px;
+  margin: 360px 2px;
   padding: 16px 32px;
   font-size: 20px;
   transition-duration: 0.8s;
@@ -158,7 +158,7 @@ body {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  margin: 280px 2px;
+  margin: 125px 2px;
   padding: 16px 32px;
   font-size: 20px;
   transition-duration: 0.8s;
@@ -175,6 +175,139 @@ body {
   text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px r6ba(255, 0, 0, 0.5);
 }
 .button4:hover {
+  background-color: #300000;
+  color: #ff0000;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
+}
+/*Button5*/
+.button5 {
+  margin: 5;
+  height: 55px;
+  width: 185px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 280px 2px;
+  padding: 16px 32px;
+  font-size: 20px;
+  transition-duration: 0.8s;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
+}
+.button5 {
+  border-radius: 7px;
+  background-color: #0a0a0a; 
+  color: #ff0000; 
+  border: 2px solid #ff0000;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px r6ba(255, 0, 0, 0.5);
+}
+.button5:hover {
+  background-color: #300000;
+  color: #ff0000;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
+}
+/*Price1*/
+.price1 {
+  color: #ff0000;
+  position: sticky;
+  text-shadow: #ff0000 1px 0 8px;
+  margin-top: auto;
+  text-align: center;
+  font-size:  30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.price2 {
+  color: red;
+  text-align: center; 
+  font-size:  25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
+}
+.price3 {
+  color: red;
+  text-align: center; 
+  font-size:  25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
+}
+.price4 {
+  color: red;
+  text-align: center; 
+  font-size:  25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
+}
+.price5 {
+  color: red;
+  text-align: center; 
+  font-size:  25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
+}
+/*Button6*/
+.button6 {
+  margin: 5;
+  height: 55px;
+  width: 185px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 50px 2px;
+  padding: 16px 32px;
+  font-size: 20px;
+  transition-duration: 0.8s;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
+}
+.button6 {
+  border-radius: 7px;
+  background-color: #0a0a0a; 
+  color: #ff0000; 
+  border: 2px solid #ff0000;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px r6ba(255, 0, 0, 0.5);
+}
+.button6:hover {
+  background-color: #300000;
+  color: #ff0000;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
+}/*Button7*/
+.button7 {
+  margin: 5;
+  height: 55px;
+  width: 185px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 370px 2px;
+  padding: 16px 32px;
+  font-size: 20px;
+  transition-duration: 0.8s;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px rgba(255, 0, 0, 0.5);
+}
+.button7 {
+  border-radius: 7px;
+  background-color: #0a0a0a; 
+  color: #ff0000; 
+  border: 2px solid #ff0000;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 5px rgba(255, 6, 0, 0.7), 0 0 20px r6ba(255, 0, 0, 0.5);
+}
+.button7:hover {
   background-color: #300000;
   color: #ff0000;
   font-family: Arial, Helvetica, sans-serif;
